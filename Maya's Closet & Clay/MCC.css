@@ -1,0 +1,127 @@
+body {
+    background-color: blanchedalmond;
+    color:burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+div {
+    width: 60%;
+    padding: 2opx;
+    border: 2px solid blanchedalmond;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+} 
+   
+p{
+    color: burlywood;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;}
+
+
+    
+a{color: rgb(180, 174, 167)}
+
+.buttoncontainer{
+    width: 100%;
+    display:flex; 
+    justify-items: center;
+}
+.socialmedialinks{
+    display: inline-block;
+    margin-right:20px;
+    margin-left: 20px;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    color:burlywood;
+    width: 80px;
+    height: 40px;
+
+}
+
+.dancingflowersright {
+    animation: dance 1.5s infinite;
+}
+@keyframes dance {
+    0% {
+        transform: rotate(-40deg);
+    }
+    50% {
+        transform: rotate(40deg);
+    }
+    100% {
+        transform: rotate(-40deg);
+    }
+}
+
+.dancingflowersleft {
+    animation: dance2 1.5s infinite;
+}
+@keyframes dance2 {
+    0% {
+        transform: rotate(40deg);
+    }
+    50% {
+        transform: rotate(-40deg);
+    }
+    100% {
+        transform: rotate(40deg);
+    }
+}
+
+.spinningbowl {
+    animation: spin 5s infinite linear; /* 2s duration, infinite loop, linear speed */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); /* Start at 0 degrees */
+  }
+  to {
+    transform: rotate(360deg); /* End at 360 degrees (one full rotation) */
+  }
+}
+
+.cartwheel-container {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cartwheel {
+    width: 300px;
+    padding: 20px;
+    animation: spin 5s linear infinite;
+    transform-origin: center center;
+  }
+
+.thankyounote {
+    font-size: 30px;
+    width: 600px;
+    height: 50px;
+    display: inline-block;
+    margin-right:20px;
+    margin-left: 20px;
+    padding: 100px;
+    border: 5px solid;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
